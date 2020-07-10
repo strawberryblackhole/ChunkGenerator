@@ -1,0 +1,9 @@
+name: ChunkGenerator
+version: 1
+author: strawberryblackhole
+main: de.strawberryblackhole.chunkgenerator.ChunkGenerator
+api-version: 1.15
+commands:
+  generateChunks:
+    description: Generates the chunks inside a recktangle area. The parameters specify the corners. Use chunk coordinates, not block coordinates. x1 <= x2, z1 <= z2
+    usage: /<command> [x1] [z1] [x2] [z2]
